@@ -45,7 +45,7 @@ export default function Submit() {
           </button>
         </div>
       ) : (
-        <div className="border border-gray-800 rounded-2xl p-8 flex flex-col gap-5">
+        <form onSubmit={handleSubmit} className="border border-gray-800 rounded-2xl p-8 flex flex-col gap-5">
           <div>
             <label className="block mb-2 text-sm text-gray-400">Game Name</label>
             <input
