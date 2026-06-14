@@ -107,9 +107,10 @@ export default function Submit() {
             <p className="text-red-400 text-sm text-center">Something went wrong. Try again!</p>
           )}
 
-          <button
-            onClick={handleSubmit}
-            disabled={status === "loading"}
+          
+            <button
+    type="submit"
+    disabled={status === "loading"}
             className="bg-neon text-black font-bold px-8 py-4 rounded-full hover:scale-105 transition text-lg mt-2"
           >
             {status === "loading" ? "Submitting..." : "Submit Opinion →"}
