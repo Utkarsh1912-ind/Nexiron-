@@ -115,7 +115,7 @@ export default function Submit() {
           >
             {status === "loading" ? "Submitting..." : "Submit Opinion →"}
           </button>
-        </div>
+        </form>
       )}
     </div>
   );
